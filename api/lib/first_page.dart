@@ -14,7 +14,7 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Fb(),
+      home: FaceBook(),
     );
 
   }

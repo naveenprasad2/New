@@ -5,14 +5,14 @@ import 'package:http/http.dart' as http;
 
 import 'model_class.dart';
 
-class Fb extends StatefulWidget {
-  const Fb({Key? key}) : super(key: key);
+class FaceBook extends StatefulWidget {
+  const FaceBook({Key? key}) : super(key: key);
 
   @override
-  _FbState createState() => _FbState();
+  _FaceBookState createState() => _FaceBookState();
 }
 
-class _FbState extends State<Fb> {
+class _FaceBookState extends State<FaceBook> {
   late List<ReasonData> data = [];
   bool isLoading = true;
 
